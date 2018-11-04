@@ -1,0 +1,103 @@
+
+/********************************************/
+/********************************************/
+/*******  Tablet Layout: 768px-960px    *****/
+/*******  Simple 768px Grid             *****/
+/********************************************/
+/********************************************/
+
+@media only screen and (min-width: 769px) and (max-width: 980px) {
+
+	
+/*****************************/
+/*     General Typography    */
+/*****************************/
+	body {
+		font-size: 12px;
+	}
+/*--//General Typography --*/
+
+
+/*********************/
+/*    Simple Grid    */
+/*********************/
+	.wrapper{
+		width:700px;/*742*/
+	    padding:0 21px;
+	}
+	.container{
+		width: 700px;
+	}	
+	.fourth, 
+	.third, 
+	.half, 
+	.twothird, 
+	.threefourth,
+	.sixth{
+		margin-right: 20px;
+		float: left;   
+	}	
+	.fourth{
+		width: 160px;
+	}	
+	.third{
+		width: 220px;
+	}	
+	.half{
+		width: 340px;
+	}	
+	.twothird{
+		width: 460px;
+	}	
+	.threefourth{
+		width: 520px;
+	}
+	.sixth{
+		width:100px;
+	}
+	.last{
+		margin-right: 0px;
+	}
+/*--//Simple Grid --*/	
+
+/*************************/
+/*     General Styles    */
+/*************************/
+
+
+/*--//General Styles --*/
+
+
+/*******************************/
+/*    General Theme Styles     */
+/*******************************/
+
+
+/*--//General Theme Styles --*/
+
+/***********************/
+/*  	 Front Page    */
+/***********************/
+	.slider_wrap{
+		width:742px;
+		margin-left:-21px;
+	}
+
+	.slider_controls{
+		height:63px;
+		width:801px;
+		margin-left:-37px;
+	}
+	.slider_center ul, .slider_center ul li{
+		position:relative;
+		overflow:hidden;
+		width:644px;
+		height:300px;
+		margin:0;
+		padding:0;
+	}
+/*--// Front Page --*/
+
+
+}
+/*--//Tablet Layout: 768px-960px --*/	

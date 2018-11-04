@@ -1,0 +1,75 @@
+
+/********************************************/
+/********************************************/
+/*****  Default/Parent Layout           *****/
+/*****  Simple 960px Grid               *****/
+/********************************************/
+/********************************************/
+
+/*********************/
+/*    Simple Grid    */
+/*********************/
+.clearfix:before,
+.clearfix:after {
+	content: '.';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	font-size: 0;
+	line-height: 0;
+	width: 0;
+	height: 0;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+
+
+.wrapper{
+	width:900px;
+	margin:0 auto;
+    background:#fff;
+    padding:0 30px;
+}
+.container{
+    width: 900px;
+    margin: 0 auto; 
+}
+
+
+.fourth, 
+.third, 
+.half, 
+.twothird, 
+.threefourth,
+.sixth{
+    margin-right: 36px;
+    float: left;    
+	position: relative;
+	z-index: 1; /* prevent shadows falling behind containers with backgrounds */
+}
+.fourth{
+    width: 198px;
+}
+.third{
+    width: 276px;
+}
+.half{
+    width: 432px;
+}
+.twothird{
+    width: 588px;
+}
+.threefourth{
+	width: 666px;
+}
+.sixth{
+	width:120px;
+}
+.last{
+    margin-right: 0;    
+}
+/*--//Simple Grid --*/

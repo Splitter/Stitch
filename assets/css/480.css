@@ -1,0 +1,301 @@
+
+/********************************************/
+/********************************************/
+/*******    Mobile Layout: 320px-479px  *****/
+/*******    Simple Linear Layout        *****/
+/********************************************/
+/********************************************/
+
+@media only screen and (max-width: 489px) {
+
+/*****************************/
+/*     General Typography    */
+/*****************************/
+	body {
+		font-size: 11px;
+	}
+/*--//General Typography --*/
+
+
+/*********************/
+/*    Simple Grid    */
+/*********************/	
+	.wrapper{
+		width:auto;
+		margin:0 5px;
+	    padding:0 14px;
+		min-width:290px;
+	}
+	.container{
+		width:auto;
+		min-width:290px;
+	}	
+	.fourth, 
+	.third, 
+	.half, 
+	.twothird, 
+	.threefourth,
+	.sixth{
+		margin-right:0px;
+		min-height:30px;
+		float:left;  
+		width:100%;
+	}
+	.hide{
+		display:none;
+	}
+/*--//Simple Grid --*/	
+	
+
+/*************************/
+/*     General Styles    */
+/*************************/
+	.content{
+		padding-top:0;
+		background:#fff;
+	}
+	.wrapper{
+		margin:0;
+	}
+	/*********************/
+	/*    Form Styles    */
+	/*********************/
+	input.text_long{
+	    width:280px;
+	    height:30px;
+	    margin-bottom:10px;
+	    background:none;
+	    padding:5px;
+	    background:url(../images/form_sprite.png) 0px -120px  no-repeat;
+	    border:0;
+		line-height:40px;
+	}
+	input.text_long:focus{
+	    background:url(../images/form_sprite.png) 0px -160px  no-repeat;
+	}
+	input.text_long[disabled='disabled'] {
+	    background:url(../images/form_sprite.png) 0px -200px  no-repeat;
+	}
+	textarea.textarea{
+	    width:270px;
+	    height:180px;
+	    max-width:270px;
+	    max-height:180px;
+	    min-width:270px;
+	    min-height:180px;
+	    background:url(../images/form_sprite.png) 0px -1050px  no-repeat;
+	    border:0px;
+	    padding:5px;
+	    margin-bottom:10px;
+	    overflow:auto;
+	}
+	textarea.textarea:focus{
+	    background:url(../images/form_sprite.png) 0px -1240px  no-repeat;
+	}
+	textarea.textarea[disabled='disabled']{
+	    background:url(../images/form_sprite.png) 0px -1430px  no-repeat;
+	}
+	/*--// Form Styles --*/
+/*--//General Styles --*/
+
+
+/*******************************/
+/*    General Theme Styles     */
+/*******************************/
+
+/*-- Header/Nav --*/
+	#header_wrap{
+	    background:#fff url(../images/page_sprite.png) 0px -240px repeat-x;
+	    height:auto;
+	}
+	#logowrap{
+		float:left;
+		padding:0;
+		margin-left:25px;
+	}	
+	#navbutton{
+		float:right;
+		display:block;
+		background: url(../images/nav-button.png) center center no-repeat;
+		width:50px;
+		height:50px;
+		text-indent:-1000px;
+		margin-top:25px;
+		margin-right:20px;
+	}
+	/*Navigation */
+		/*Reset all sub-menu styling */		
+	#header ul li ul,#header ul li ul li,#header ul li ul li a,#header ul li ul li ul,#header ul li ul li ul li,#header ul li ul li ul li a, #header ul li ul li:hover ul, #header ul li:hover ul,#header ul li:hover ul li ul{
+		display:block;
+		background:none;
+		float:none;
+		position:relative;
+		margin:0;
+		border:0;
+		margin-left:20px;
+		width:auto;
+		height:auto;
+		text-align:left;
+	}
+	#header{
+		min-height:130px;
+	}
+		/*Clean up rest of nav styling */
+	#header ul {
+		clear:both;
+		float:none;
+		margin:0;
+		padding:0;
+		float:none;
+		display:none;
+		margin-bottom:30px;
+		margin-top:120px;
+	}	
+	#header ul li{
+		float:none;
+		display:block;
+		position:relative;
+		margin:0;
+		height:auto;
+	}	
+		
+	#header ul li ul,#header ul li ul li ul{
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+		box-shadow: none;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+	}
+	#header ul li a{
+		margin:0;
+		text-align:center;
+		padding:10px;
+		color:#444 !important;
+		border-bottom:solid 1px #dedede !important;
+		text-align:left;
+	}	
+	#header ul li a:hover{
+		color:#fccb0c !important;
+	}
+/*--//Header/Nav --*/
+
+
+/*-- Copyright/Social Bar --*/
+	#copyright {
+		background:#fff;
+	}	
+	#copyright ul{
+		float:left;
+	}	
+	#copyright ul li{
+		margin-right:10px;
+		margin-left:0;
+	}
+/*--//Copyright/Social Bar --*/
+
+
+/*--//General Theme Styles --*/
+
+
+	/***********************/
+	/*  	 Front Page    */
+	/***********************/
+	.slider_wrap{
+		width:100%;
+		height:174px;
+		margin:0;
+	}
+	.slider_left,.slider_right{
+		width:0;
+		background:none;
+		height:0;
+	}
+	.slider_center{
+		width:auto;
+		margin:0;
+		padding:0;
+		height:174px;
+	    background:none;  
+	    background:red;
+	}
+	.slider_caption{
+		font-size:1.3em;
+		line-height:2.2em;
+		margin-top:90px;
+		padding:0 20px;
+	}
+	.slider_caption2{
+		font-size:1.6em;
+		line-height:1em;
+		margin-top:110px;
+	}
+	.slider_caption2 span{
+		padding:0 14px;
+		font-size:0.8em;
+		line-height:1.8em;
+	}
+	.slider_caption3{
+		font-size:1em;
+		margin-top:50px;
+		padding:5px 15px;
+		width:80%;
+	}
+	.slider_caption3 span.slider_title{
+		font-size:1.3em;
+		line-height:1.6em;
+	}
+	.slider_controls{
+		height:63px;
+		width:100%;
+		margin-left:-46px;
+	}
+	.slider_controls .left_cont, .slider_controls .right_cont{
+		width:0;
+		height:0;
+	    display:none;	
+	}
+	.slider_controls .center_cont{
+		width:100%;
+		height:45px;
+		background:none;
+		border-bottom:1px solid #dedede;
+	}
+	.slider_controls .center_cont ul li, .slider_controls .center_cont ul li.active{
+		margin-top:0;
+		margin-right:10px;
+		margin-left:0;
+    	background:url(../images/slider_sprite.png) -208px -159px no-repeat;  
+	}
+	.slider_controls .center_cont ul li.active{
+    background:url(../images/slider_sprite.png) -208px -148px no-repeat; 
+	}
+	.slider_controls .center_cont{
+	}
+	.slider_controls .center_cont ul{
+		margin:0;
+		float:none;
+		width:auto;
+		margin:0 auto;
+	}
+	.sliderc_left, .sliderc_right{
+		display:none;
+		width:0;
+		height:0;
+	}
+	.slider_center ul, .slider_center ul li{
+		position:relative;
+		overflow:hidden;
+		width:100%;
+		height:174px;
+		margin:0;
+		padding:0;
+	}
+	.slider_center ul li img{
+		width:500px;
+		height:174px;
+	}
+
+	/*--// Front Page --*/
+}
+/*--//Mobile Layout: 320px-479px --*/	
